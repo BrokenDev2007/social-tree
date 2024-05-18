@@ -8,6 +8,7 @@ import { HomeOutlined, TeamOutlined, UserOutlined } from '@ant-design/icons';
 import MemberList from '../components/family/listMember';
 import Chatbox from '../components/family/chatBox';
 import LeaveButton from '../components/family/leaveButton/index';
+import ShareFamily from '../components/family/shareFamily';
 
 const { Sider, Content } = Layout;
 
@@ -88,6 +89,7 @@ const YourFamily = () => {
                     <div style={{ padding: 24, minHeight: 360 }}>
                         <h2>{familyName}</h2>
                         {familyId && <Chatbox familyId={familyId} userId={userData.uid} />}
+                        {familyId && <ShareFamily familyId={familyId} />}
                     </div>
                 </Content>
             </Layout>

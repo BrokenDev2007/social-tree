@@ -9,6 +9,11 @@ In the modern 2024 year, it is really hard to keep all your friend's or your fam
 
 You can view the web app live at: https://web.socialtree.site
 
+**TO FORK IT**
+1. Make sure to `star` the repo if you like it :)
+2. Make sure to replace the credentials inside the src/firebase/firebase.js with your own Firebase credentials.
+3. Turn on the authentication/email-password and firestore module from firebase backend.
+
 ## Features 
 
 + **Profile Card**: This gives each user his own unique profile card link which he can share to his friends and this profile card has the user's all social media links in form of `buttons`.
